@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  color: white;
+  background-color: black;
+}
+.footer {
+  margin-top: 50px;
+  display: flex;
+}
+.footer-widget img {
+  width: 18%;
+}
+.footer-widget ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer-subscribe-col {
+  max-width: 410px;
+  flex: 0 0 410px;
+  padding: 0;
+}
+.footer-col .footer-widget a {
+  text-decoration: none;
+  color: white;
+  text-align: start;
+}
+.footer-col {
+  width: 100%;
+  flex: 1;
+  padding-left: 100px;
+}
+.footer-bottom {
+  padding-top: 40px;
+  color: white;
+  margin-bottom: 60px;
+}
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.icon-social {
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}

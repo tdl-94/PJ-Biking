@@ -1,0 +1,21 @@
+.product-card h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 50px;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.product-card .img-card {
+  margin: 30px auto;
+  width: 100%;
+}
+.product-card {
+  margin: 30px auto;
+  
+}
+.right-product {
+  width: 75%!important;
+}
+

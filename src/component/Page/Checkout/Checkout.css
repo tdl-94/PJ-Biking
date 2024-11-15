@@ -1,0 +1,12 @@
+.left-checkout button{
+
+  color:white;
+}
+.product-checkout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subtotal {
+  display: block;
+}

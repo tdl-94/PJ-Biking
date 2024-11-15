@@ -1,0 +1,55 @@
+.gaming-leftbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.cat-tab .tab-link {
+  width: 100%;
+  background: black;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 12px 40px;
+  outline: none;
+  cursor: pointer;
+  list-style: none;
+  color: white;
+  border-radius: 0 20px;
+  margin-top: 10px;
+}
+.cat-tab .tab-link.active {
+  background: linear-gradient(93.25deg, #b10000 4.45%, #600 93.88%);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+.cat-tab li a {
+  text-decoration: none;
+  color: white;
+}
+.more-categories a {
+  color: #b10000;
+}
+
+/* .best-product-tile {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+} */
+
+.img-card .img {
+  background-color: transparent !important ;
+}
+.about {
+  margin: 50px 0px;
+}
+.about-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-us-box {
+  height: 100%;
+  background: linear-gradient(148deg, #be0c0cbb, #0000);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 0 20px;
+  padding: 15px;
+}

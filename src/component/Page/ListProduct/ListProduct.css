@@ -1,0 +1,130 @@
+.title {
+  margin: 20px 0;
+}
+.title h1 {
+  text-align: center;
+}
+.filter {
+  font-size: 25px;
+  font-weight: 500;
+}
+.count-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.left-product {
+  width: 25%;
+}
+.check-product {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.check-item {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 12px;
+}
+.custom-checkbox {
+    display: none;
+  }
+
+  /* Tạo checkbox tùy chỉnh */
+  .custom-checkbox + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .custom-checkbox + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(#838383);;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* Khi checkbox được chọn */
+  .custom-checkbox:checked + label::before {
+    background-color: var(--color-item); /* Màu nền khi được chọn */
+    border-color: var(#838383);
+  }
+
+  /* Khi di chuột vào checkbox */
+  .custom-checkbox + label:hover::before {
+    border-color: #2196F3; /* Màu viền khi hover */
+  }
+
+  /* Dấu tích khi checkbox được chọn */
+  .custom-checkbox:checked + label::after {
+    content: '✔';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 16px;
+  }
+.checkbox-color-white::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.check-item p {
+  text-align: right;
+}
+.price-items {
+  display: flex;
+  gap: 10px;
+}
+.price input {
+  margin: 10px 0;
+  background: transparent;
+  color: #838383;
+  border: 1px solid #838383;
+  transition: all ease-in-out 0.3s;
+  text-align: start;
+  padding: 8px 20px;
+  width: 80%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0 20px;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

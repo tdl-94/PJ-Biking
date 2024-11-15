@@ -1,0 +1,108 @@
+.btn-flex a:not(:last-of-type) {
+  margin-right: 20px;
+}
+.banner {
+  background-color: black;
+  padding-top: 50px;
+}
+.banner-title {
+  padding: 30px 0;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.align-items-center {
+  align-items: center;
+}
+.btn-primary {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(93.25deg, #b10000 4.45%, #600 93.88%);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  padding: 12px 20px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid transparent;
+  justify-content: center;
+  border-radius: 0 20px;
+}
+.btn-primary .btn-transparent,
+i,
+.btn-banner {
+  background-color: transparent;
+}
+.btn-transparent,
+.btn-banner {
+  background: transparent;
+  color: #838383;
+  border: 1px solid #838383;
+  transition: all ease-in-out 0.3s;
+  text-align: start;
+  padding: 12px 40px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0 20px;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.btn-banner {
+  width: auto;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: #838383;
+  border: 1px solid #838383;
+}
+.btn-transparent:hover,
+.btn-banner:hover {
+  color: white;
+  background: linear-gradient(93.25deg, #b10000 4.45%, #600 93.88%);
+}
+.banner-tagline {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.banner-label {
+  padding: 4px 10px;
+  color: white;
+  margin-right: 10px;
+  background: linear-gradient(90deg, #b10000, #b1000000);
+  border-radius: 20px;
+  font-size: 14px;
+}
+.banner-tagline {
+  background: linear-gradient(82.25deg, #404040 4.45%, #8a000c 82.88%);
+  padding: 10px 15px;
+  color: white;
+  max-width: 400px;
+  margin-bottom: 20px !important;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.banner-tagline p {
+  background-color: transparent;
+  margin-bottom: 0px !important;
+}
